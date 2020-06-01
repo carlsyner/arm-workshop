@@ -4,12 +4,13 @@
     "parameters": {},
     "functions": [],
     "variables": {},
-    "resources": [{
+    "resources": [
+        {
         "name": "carlsyner19887a",
         "type": "Microsoft.Storage/storageAccounts",
         "apiVersion": "2019-06-01",
         "tags": {
-            "dcarlsyner19887a"
+            "displayName": "carlsyner19887a"
         },
         "location": "[resourceGroup().location]",
         "kind": "StorageV2",
@@ -17,6 +18,7 @@
             "name": "Premium_LRS",
             "tier": "Premium"
         }
-    }],
+    }
+    ],
     "outputs": {}
 }
